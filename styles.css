@@ -15,9 +15,43 @@ img.me {
 
 iframe.vid {
     position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+audio.rickroll {
+    position:absolute;
     top: 50px;
     right: 50px;
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(72, 150, 82);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #e4184b;
+    color: white;
+  }
 
 p {
     font-size: 1.5rem;
